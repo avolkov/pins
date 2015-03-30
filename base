@@ -10,14 +10,14 @@ parts =
 [base]
 packages =
     Pillow
-    Plone
+
 zcml =
 
 [env]
 recipe = collective.recipe.environment
 
 [plone]
-eggs = 
+eggs =
     ${base:packages}
 products =
 recipe = plone.recipe.zope2instance
